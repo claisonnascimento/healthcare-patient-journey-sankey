@@ -1,0 +1,30 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados gerados localmente
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

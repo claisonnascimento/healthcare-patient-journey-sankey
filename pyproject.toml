@@ -1,0 +1,19 @@
+[project]
+name = "healthcare-patient-journey-sankey"
+version = "1.0.0"
+description = "Jornada do paciente crônico em ondas de atendimento com gráficos de Sankey."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Claison do Nascimento" }]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
