@@ -1,5 +1,6 @@
 # 🏥 Patient Journey & Care Pathway Analytics
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://patient-journey-sankey.streamlit.app/)
 [![CI](https://github.com/claisonnascimento/healthcare-patient-journey-sankey/actions/workflows/ci.yml/badge.svg)](https://github.com/claisonnascimento/healthcare-patient-journey-sankey/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.50%2B-FF4B4B.svg)](https://streamlit.io/)
@@ -7,6 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Mapeamento da jornada de beneficiários crônicos em ondas temporais de atendimento, para revelar onde a linha de cuidado se rompe e quanto isso custa à operadora.**
+
+### 🔗 [Acesse o dashboard online →](https://patient-journey-sankey.streamlit.app/)
 
 ![Dashboard com KPIs e Sankey de ondas de atendimento](assets/dashboard.png)
 
